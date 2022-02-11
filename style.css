@@ -1,0 +1,9 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+.wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 400px 700px;
+}
