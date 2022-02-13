@@ -2,8 +2,28 @@ body {
   width: 60%;
   margin: 0 auto;
 }
+h1 {
+  font-size: 46px;
+}
 .wrapper {
-  margin-top: 50px;
+  /* margin-top: 30px; */
   display: grid;
   grid-template-columns: 400px 700px;
+}
+.section_left {
+  background: linear-gradient(46deg, rgb(255, 255, 255), rgb(188, 100, 60));
+  padding-left: 30px;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.photo img {
+  border-radius: 50%;
+}
+.section_right {
+  padding-top: 20px;
+  padding-left: 30px;
 }
